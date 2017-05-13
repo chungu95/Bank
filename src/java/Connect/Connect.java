@@ -9,8 +9,8 @@ public class Connect {
     public static Connection getConnect() {
         Connection con = null;
         try {
-            String Username = "sa";
-            String password = "DEADLINE";
+            String Username = "User"; // User name để kết nối database
+            String password = "Password"; // password kết nối database
             String DBName = "DichVu";
             String url = "jdbc:sqlserver://localhost:1433;databaseName=" + DBName + ";";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
